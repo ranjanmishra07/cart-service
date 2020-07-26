@@ -10,4 +10,5 @@ public interface ICartService {
     Product addProduct(ProductRequestDto productRequestDto);
     List<Product> listProducts();
     Product updateProduct(ProductRequestDto productRequestDto);
+    Void deleteProduct(String id);
 }

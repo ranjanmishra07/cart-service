@@ -33,6 +33,9 @@ public class Product {
     String name;
 
     @NotNull
+    Integer price;
+
+    @NotNull
     String status;
 
     @Nullable

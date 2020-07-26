@@ -46,4 +46,9 @@ public class CartController {
         return cartService.getProduct(id);
     }
 
+    @DeleteMapping("product/delete")
+    public Void deleteProduct(@RequestParam("id") String id) {
+        return cartService.deleteProduct(id);
+    }
+
 }
